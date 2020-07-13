@@ -37,7 +37,11 @@ class Hellow extends Component {
       subtitle: 'This is a subtitle',
       message: 'This is a very long message',
       theme: 'red',
-      native: true // when using native, your OS will handle theming.
+      backgroundTop: 'green', 
+      // native: true, // when using native, your OS will handle theming.
+      backgroundBottom: 'darkgreen', //optional, background color of bottom container.
+      colorTop: 'green', //optional, font color of top container.
+      colorBottom: 'darkgreen',
   });
   }
   render() {
